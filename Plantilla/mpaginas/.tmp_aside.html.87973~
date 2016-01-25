@@ -1,0 +1,99 @@
+<aside class="main-sidebar">               <!-- Left side column. contains the logo and sidebar -->
+    <section class="sidebar">                <!-- sidebar: style can be found in sidebar.less -->
+      <div class="user-panel">               <!-- Sidebar user panel -->
+        <div class="pull-left image">
+          <img src="../../dist/img/usuario.png" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p> Usuario </p>
+        </div>
+      </div>  
+      <form action="#" method="get" class="sidebar-form">         <!-- search form -->
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>                                                     <!-- /.search form -->
+      
+      <ul class="sidebar-menu">                         <!-- sidebar menu: : style can be found in sidebar.less -->
+        <li class="header">MENU PRINCIPAL</li>
+        <li class="active treeview">
+          <a href="Dashboard.html">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span> 
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="../Dashboard/listas.html"><i class="fa fa-circle-o text-yellow"></i> Listas</a></li>
+            <li><a href="../Dashboard/mapaInteractivo.html"><i class="fa fa-circle-o text-yellow"></i> Mapa Interactivo</a></li>
+            <li><a href="../Dashboard/puestoVotacion.html"><i class="fa fa-circle-o text-yellow"></i> Puesto de Votacion </a></li>
+         <li class="treeview">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i>
+            <span>Graficas</span>
+            <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="../Dashboard/histograma.html"><i class="fa fa-circle-o"></i> Histograma </a></li>
+            <li><a href="../Dashboard/comunaGrafics.html"><i class="fa fa-circle-o"></i> Comuna </a></li>
+            <li><a href="../Dashboard/barrioGrafics .html"><i class="fa fa-circle-o"></i> Barrio </a></li>
+            <li><a href="../Dashboard/encuestas.html"><i class="fa fa-circle-o"></i> Encuestas </a></li>
+          </ul>
+        </li>   
+        </ul>
+      </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-map marker"></i>
+            <span> Mapa </span> 
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#"><i class="fa fa-circle-o text-blue"></i> Marcar ruta </a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-blue"></i> Buscar </a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-blue"></i> Filtar </a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="pages/widgets.html">
+            <i class="fa fa-file-text"></i> <span> Encuesta </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#"><i class="fa fa-circle-o text-green"></i> Agregar Simpatizante </a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-green"></i> Crear Encuesta </a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-green"></i>  </a></li>
+          </ul>
+        </li>
+        
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-user"></i>
+            <span> Simpatizantes </span>  
+            <span class="label pull-right bg-red"> 5</span>
+            </a>
+          <ul class="treeview-menu">
+            <li><a href="#"><i class="fa fa-circle-o text-red"></i> Editar Simpatizante</a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-red"></i> Eliminar Simpatizante </a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-red"></i> Buscar Simpatizante </a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-red"></i> Perfil Simpatizante </a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-red"></i> Encuesta Simpatizante </a></li>
+          </ul>
+        </li>
+        
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-envelope"></i> <span> Comunidad </span> 
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="index.html"><i class="fa fa-circle-o text-purple"></i> Cosas por hacer</a></li>
+            <li><a href="javascript:void(0)" onclick="window.open('https://mail.google.com/mail/u/0/','','width=700,height=400,suresize')"><i class="fa fa-circle-o text-purple"></i> Correo </a></li>
+            <li><a href="redesocial.html"><i class="fa fa-circle-o text-purple"></i> Redes sociales </a></li>
+            <li><a href="calendar.html"><i class="fa fa-calendar"></i> <span>Calendario</span></a></li>
+          
+          </ul>          
+        </li>
+        
+        <li><a href="documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
+      </ul>
+    </section>
+  </aside>
